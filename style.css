@@ -1,0 +1,34 @@
+.container {
+    width: 800px;
+    height: 800px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    height: 500px;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 0px;
+    box-sizing: border-box;
+    display:flex;
+
+}
+
+.column {
+    width: 500px;
+    height: 100%;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 1px;
+    box-sizing: border-box;
+    display:flex;
+}
